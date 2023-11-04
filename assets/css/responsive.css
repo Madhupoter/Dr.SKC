@@ -1,0 +1,206 @@
+@media screen and (max-width: 576px) {
+    .navbar-brand {
+        display: block !important;
+    }
+
+    .name {
+        display: none !important;
+    }
+
+    .india {
+        display: none !important;
+    }
+
+    .desg {
+        display: none !important;
+    }
+
+    .navbar-brand {
+        font-size: 14px;
+        font-weight: 900;
+        color: #000
+    }
+
+    .img-wish .img_text {
+
+        /* From https://css.glass */
+        background: rgba(19, 3, 1, 0.69);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(1.1px);
+        -webkit-backdrop-filter: blur(1.1px);
+        border: 1px solid #fff;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        height: 120px;
+        width: 200px;
+        padding: 5px;
+        position: relative;
+        z-index: 1;
+        bottom: 150px;
+    }
+
+    .navbar ul li a {
+        display: block;
+        padding: 2px 0px;
+        color: #000;
+        text-decoration: none;
+        text-align: start;
+        font-size: 20px;
+    }
+
+    .Clients {
+        margin-top: -30px;
+    }
+
+    .hero {
+        padding: 0px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .sec_bg {
+        background-color: #9aa689;
+        height: auto;
+        padding: 10px;
+        color: #fff;
+    }
+
+    .sec-2 {
+        background-color: #4c4849;
+        color: #fff;
+        padding: 10px;
+        height: auto;
+    }
+
+    .sec-2 .sec-2-1 img,
+    .sec-2 .sec-2-2 img {
+        height: auto;
+        width: 100%;
+    }
+
+    .philantrophy {
+        padding: 30px 0;
+        background-color: #cae2fa;
+        height: auto;
+    }
+
+    .philantrophy img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .vid-tra video {
+        height: 210px;
+    }
+
+    .pht_gal {
+        padding: 0px !important;
+        background-color: transparent;
+        height: auto;
+    }
+
+    .pht_gal img {
+        margin-bottom: 10px;
+    }
+
+    .community {
+        padding: 30px 0px;
+    }
+
+    .community br {
+        display: none;
+    }
+
+    .community .comunity {
+        padding: 20px 0px;
+    }
+
+    .community .familytree {
+        padding: 20px 0px;
+    }
+
+    .usefulLinks {
+        display: unset;
+    }
+
+    .followUs {
+        text-align: center;
+    }
+
+    .main-header {
+        padding: 0px;
+    }
+
+    .sec_bg {
+        background-image: url(../images/hero1-1.png);
+        background-size: 100% 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 400px !important;
+    }
+
+    .vid-tra h3 {
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bold;
+        color: #000;
+    }
+
+    .navbar-nav li:nth-child(-n + 5):after {
+        display: none;
+    }
+
+    .philantrophy .sec-2 {
+        display: block !important;
+    }
+
+
+    .hero .sec-2 {
+        display: none !important;
+    }
+
+    .vid-tra {
+        padding: 20px 0px 0px 0px;
+    }
+
+    #header {
+        padding: 0px !important;
+    }
+
+    .moreVideos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar-brand {
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 0rem !important;
+        text-decoration: none;
+        white-space: nowrap;
+    }
+
+}
+
+
+@media screen and (max-width: 350px) {
+
+
+    video {
+        height: 150px !important;
+    }
+
+    .navbar-brand {
+        margin-right: 0rem !important;
+    }
+
+    .navbar-brand {
+        font-size: 12px !important;
+        font-weight: 900;
+        color: #000;
+    }
+
+}
